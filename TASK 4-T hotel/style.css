@@ -1,0 +1,371 @@
+@import url('htpps://fonts.googleapis.com/css2?family=Suez+One&display=swap';)
+
+body{
+    font-family: 'Suez One', serif;
+}
+nav{
+ background-color:#55a8ae;
+}
+.navbar-nav{
+    margin-right:10rem;
+}
+.nav-item{
+    font-size:1.8rem;
+    font-weight:bold;
+    margin: 0 .5rem;
+}
+.nav-link{
+    color:white!important;
+}
+.nav-link:hover
+{
+    color:rgba(255,255,255,0.7)!important;
+}
+.nav-link.active{
+    color:rgba(255,255,255,0.6)!important;
+    border-bottom:2px solid rgba(255,255,255,0.7);
+}
+.carousel1{
+    background-image: url("images/hotel.jpg")!important;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:300px;
+}
+.carousel2{
+    background-image: url("images/hotel4.jpg")!important;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:300px;
+}
+.carousel3{
+    background-image: url("images/hotel9.jpg")!important;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:300px;
+}
+.carousel4{
+    background-image: url("images/hotel7.jpg")!important;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:300px;
+}
+.carousel5{
+    background-image: url("images/hotelx.jpg")!important;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:300px;
+}
+.carousel6{
+    background-image: url("images/cinema1.jpg")!important;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    padding:300px;
+}
+.carousel7{background-image: url("images/hotel11.jpg")!important;background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;padding:300px;}
+.carousel8{background-image: url("images/hotel10.jpg")!important;background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;padding:300px;}
+.carousel9{background-image: url("images/hotel17.jpg")!important;background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;padding:300px;}
+.carousel10{background-image: url("images/hotel3.jpg")!important;background-size:cover;background-position:center;background-attachment:fixed;background-repeat:no-repeat;padding:300px;}
+.carousel-caption{
+    margin-bottom:7rem;
+}
+.car-btn{
+    font-size:1.7rem;
+    padding: 1rem;
+    letter-spacing: 4px;
+    font-weight:bold;
+    color:white;
+    background:#55a8ae;
+    border-radius: 4rem;
+    animation-name: carbtn;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+}
+@keyframes carbtn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+select{
+    height:2.6rem;
+}
+.car-btn:hover{
+    border:2px solid #55a8ae;
+    background:white;
+    color:#55a8ae;
+}
+.car-h{
+    width:inherit;
+    font-size:5rem;
+    font-weight:800;
+    animation-name: head;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
+@keyframes head{
+    0%{
+        margin-left: -40rem;
+    }
+    100%{
+        margin-left:0;
+    }
+}
+
+.four{
+    margin-bottom:6rem;
+}
+.carousel-indicators li{
+    border-radius:50%;
+    padding:15px;
+}
+.carousel-indicators li.active{
+    background:#66cad1;
+}
+.large-head{
+    font-size: 4rem;
+    color:#55a8ae;
+    font-weight:700;
+}
+.btn-checkk{
+background:#55a8ae;
+color:white;
+padding:1rem;
+font-weight: 500;
+font-size:2rem;
+}
+.btn-checkk:hover{
+    border:1px solid #55a8ae;
+    background:white;
+    color:#55a8ae;
+}
+.reservation-row{
+    padding:3rem;
+}
+.reserve-input{
+width: 6.7rem;
+font-size:14px;
+height: 1.3rem!important;
+font-weight:bold;
+border:none;
+padding:1.3rem;
+margin-right:-1.3rem;
+}
+.input-holder{
+margin-top:-1.7rem;
+height:5px;
+margin-bottom:2.4rem;
+}
+.small-cap{
+    margin:2rem 0 0rem 10rem;
+    width:60%;
+}
+.chevron{
+    margin: 8rem 0 0rem 15rem;
+}
+.rooms-img{
+width:inherit;
+height:inherit;
+}
+.rates-h{
+    margin-top:1rem;
+}
+.rates-corousel{
+    margin-top:3rem;
+}
+.rate-item{
+    width:70%!important;
+}
+.facilities-bg{
+background-size:cover;
+background-position:center;
+padding:6rem;
+animation-name:facilities;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes facilities{
+    0%{
+        background-image: linear-gradient(rgba(7, 63, 245, 0.5), rgba(84, 245, 10, 0.6)), url("images/hotel12.jpg");
+    }
+    100%{
+        background-image: linear-gradient(rgba(166, 19, 235, 0.5), rgba(238, 28, 13, 0.6)), url("images/hotel12.jpg");
+    }
+}
+.fac-heading{
+    color:white;
+    margin-top:1rem;
+}
+.fac-h-row{
+    margin:3rem 0;
+}
+.fac-box{
+    margin-bottom:2rem;
+}
+.test-h-r{
+    padding:3rem 0;
+}
+.passport{
+    height:7rem;
+    width:7rem;
+    border-radius:50%;
+}
+.map{
+    width:100%;
+    height:30rem;
+    background-image: url("images/map.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.map:hover{
+    background-image: linear-gradient(rgba(219, 26, 194, 0.6),rgba(85,168,174,0.6)), url("images/map.jpg");
+}
+.test-item{
+    margin-bottom:3rem;
+    margin-top:2rem;
+}
+input{
+    margin:2rem 0;
+    height:4rem!important;
+    color:black;
+}
+textarea{
+    height:6rem!important;
+}
+.contact-form{
+    background:#55a8ae;
+    margin-left:-2rem;
+}
+.footer{
+    background:#55a8ae;
+    color:white;
+    padding: 2rem 2  rem;
+    margin-top: -2rem!important;
+    font-size:12px;
+}
+.footer-i{
+    color:white;
+}
+.footer-h{
+    margin:1rem 0;
+}
+.icons{
+    color:white;
+    margin:0 .7rem;
+}
+.footer-columns-r{
+    margin-top:6rem;
+}
+.footer-columns{
+    padding:0!important;
+}
+.footer-row{
+    margin: 0 3rem 0 7rem;
+}
+
+.footer-links{
+    color:White;
+}
+.reserve-form{
+    margin-top:2rem;
+}
+.reserve-form:nth-child(5){
+    margin-bottom:2rem;
+}
+
+
+
+
+/*Media Queries*/
+@media (min-width:10px){
+    .car-h{
+        font-size:2.2rem;
+        font-weight:700;
+        margin: 0 5rem 4rem 0;
+        text-align:center;
+    }
+    .car-btn{
+        font-size:1.5rem;
+    padding: 1rem;
+    letter-spacing: 3px;
+    border-radius: 2rem;
+    margin:-3rem 5rem 5rem 0;
+    }
+    .carousel-caption{
+        margin-bottom:5rem;
+    }
+    .btn-checkk{
+        padding:.7rem;
+        font-weight: 400;
+        font-size:1.6rem;
+        }
+    .large-head{
+        font-size: 3;7rem;
+        font-weight:600;
+        }
+    .room-h{
+        font-size:3rem;
+    }
+    .contact-head{
+        font-size: 3rem;
+        font-weight:600;
+    }
+    .contact-form{
+        margin-left:0rem;
+    }
+}
+@media (min-width:767px){
+    .nav-item{
+        font-size:18px;
+        margin: 0 2px;
+    }  
+    .car-h{
+        font-size:4rem;
+        font-weight:800;
+        margin-top:6rem;
+    }
+    .car-btn{
+        font-size:2.7rem;
+    padding: 1.2rem;
+    letter-spacing: 4px;
+    border-radius: 4rem;
+    }
+    .carousel-caption{
+        margin-bottom:2rem;
+    }
+    .btn-checkk{
+        padding:1rem;
+        font-weight: 500;
+        font-size:2rem;
+        }
+    .large-head{
+        font-size: 4rem;
+        font-weight:700;
+        }
+    .room-h{
+        font-size:4rem;
+    }
+    .contact-form{
+        margin-left:-2rem;
+    }
+
+}
+@media (min-width:1200px){
+    .nav-item{
+        font-size:1.8rem;
+        margin: 0 .5rem;
+    }
+}
