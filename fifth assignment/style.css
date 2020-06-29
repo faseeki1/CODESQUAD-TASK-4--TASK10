@@ -1,0 +1,347 @@
+.cosmo, .city{
+    color:black;
+}
+.cosmo{
+    font-size:1.6rem;
+    font-weight:700;
+}
+.city{
+    font-size: 1.4rem;
+    font-weight:500;
+    text-align:center;
+}
+.nav-nav li{
+    margin-right:1rem !important;
+    font-size:1.5rem;
+    font-weight:bold !important;
+}
+.nav-nav li a{
+    color:black;
+    z-index:-1;
+}
+.nav-nav li a:hover,
+.nav-nav li a.active{
+    color:#7b8bc7;
+    text-decoration: none;
+}
+.nav-fa{
+    margin: 0 1.5rem;
+    color:black;
+}
+.nav-fa:hover{
+    color:white;
+}
+.nav-fa-col{
+    background:#7b8bc7;
+    width:100%;
+    padding: 0 1rem;
+}
+.nav-con-col{
+    margin-right:-1rem;
+    background:white!important;
+}
+.nav-fa-link{
+    color:black;
+}
+.my-fa-link:hover{
+    color:white;
+}
+.two{
+    margin-left:-30rem;
+}
+.carousel1{
+    background-image: url("img/hotell.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom:25rem;
+    animation-name: carousel;
+    animation-duration: 1s;
+}
+.carousel2{
+    background-image: url("img/hotelll2.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom:25rem;
+    animation-name: carousel;
+    animation-duration: 1s;
+}
+.carousel3{
+    background-image: url("img/hotelll.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom:25rem;
+    animation-name: carousel;
+    animation-duration: 1s;
+}
+@keyframes carousel{
+    0%{
+        margin-top:-10rem;
+    }
+    50%{
+        margin-top:2rem;
+    }
+    100%{
+        margin-top:0;
+    }
+}
+.top{
+    background:white!important;
+    width:70%;
+    margin-right:-28rem;
+    padding:1rem;
+    margin-top:-1rem;
+    margin-left:-1rem;
+}
+.nav-social{
+    height:inherit;
+    width:30%;
+    padding: 2rem 1rem 2rem 1.4rem;
+}
+.nav-inner{
+    width:100%;
+    background-image: url("img/hotell.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom:15rem;
+
+}
+.nav-inner-other{
+    width:100%;
+    background-image: url("img/hotell.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom:5rem;
+
+}
+.preview-row{
+    margin: 2rem 17%;
+}
+.hotel-car{
+    margin-top:30rem!important;
+}
+.car-v{
+    font-size:3rem;
+    color:white;
+}
+.landing-h{
+    font-size:3rem;
+    font-weight:700;
+    margin-top:2rem;
+}
+.rrimg{
+    width:100%;
+    margin-left:-1rem;
+    height:inherit;
+}
+.rr-p1{
+margin: 2rem 0;
+font-size:1.4rem;
+}
+.fac{
+    margin-top: 6rem!important;
+    margin-bottom: 6rem;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 4rem 0;
+}
+.fac-row{
+    
+    margin-left:16%;
+    
+}
+.fac-col{
+    margin-bottom: 3rem;
+}
+.fac-sh{
+    font-size:15px;
+}
+.form-input{
+    padding:2.5rem 2rem;
+}
+.form-input, .form-area {
+    font-weight:500;
+    font-size:1.3rem;
+} 
+.formtop-row{
+    margin: 2rem 0 1rem 0;
+}
+.formtop-h{
+    font-weight:900;
+}
+.formtop-p{
+    font-size:22px;
+}
+.submit{
+    width:5rem!important;
+    background: #7b8bc7;
+    color: white;
+    margin-left: 90%!important; 
+}
+.rr-p2{
+    margin: -.7rem 0 3rem 0;
+    font-size: 1.4rem;
+}
+.land-other{
+    background-image: url("img/hotell.jpg");
+    background-size:cover;
+    background-position:center;
+    padding-bottom: 10rem;
+    text-align: center;
+    color:white;
+}
+.landing-h{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight:700;
+    margin-top: 10%;
+}
+.land p{
+    font-size:2rem;
+    font-weight:600;
+}
+.reserve-row{
+    padding: 3rem 0;
+}
+.reserve-in{
+    width:6rem;
+    color: black;
+    font-weight:bold;
+    border:none;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+.reserve-icon{
+    padding:10px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.reserve-v{
+    padding:9px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.reserve-link{
+    padding: 12px;
+    background :#7b8bc7;
+    color:white;
+    font-weight:bold;
+}
+.rr-container{
+    border: 1px solid black;
+}
+.rr-link{
+    padding: 15px;
+    margin-left: 65%;
+    margin-top:-2rem;
+    background :#7b8bc7;
+    color:white;
+    font-weight:bold;
+}
+.large-head{
+    font-size:2.7rem;
+}
+.underline{
+    padding:2px;
+    width:10rem;
+    background:#7b8bc7;
+    margin:auto;
+    margin-bottom: 3rem;
+}
+.sp-video{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("img/hotel11.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 6rem;
+    margin-top:0rem;
+}
+.footer-row{
+    margin-top:2rem;
+    padding:3rem;
+    color:black;
+    border-top:3px solid #7b8bc7;
+    border-left:2px solid #7b8bc7;
+    margin-left:3px;
+}
+.footer-link{
+    color:black;
+}
+.soc-row{
+    margin: 14px 0;
+}
+.soc-p{
+    margin-left:6px;
+    font-size:26px;
+}
+.not-bold{
+    font-weight:400;
+}
+.form-submit{
+    padding:14px 3rem;
+    border:none;
+    color:white;
+    margin-left: 70%;
+    font-size:15px;
+    font-weight:bold;
+    background:#7b8bc7
+}
+.footer-input{
+    height:4rem;
+    font-weight:600;
+    font-size:1.2rem;
+}
+.reserve-coll{
+    margin-bottom:1.6rem;
+}
+
+/*=============================================================MEDIA QUERIES=======================================================*/
+@media (max-width:767px){
+    .sl{
+        visibility: hidden;
+    }
+    .nav-fa-col{
+        padding-bottom:3rem;
+    }
+    .navbar-nav li{
+        font-size: 1.5rem;
+    }
+    .my-fa{
+        font-size: 3em!important;
+    }
+    .rr-link{
+        margin-top: -3rem!important;
+    }
+    .preview{
+        font-size:1.2rem;
+    }
+}
+
+@media (max-width:991px){
+    .navbar-nav li{
+        font-size: 1.1rem;
+    }
+    .my-fa{
+        font-size: 2em!important;
+        margin-top:1rem!important;
+    }
+    footer{
+        font-size: 15px!important;
+    }
+    .soc-row .fa-2x{
+        font-size:1em!important;
+    }
+    .footer-link, .soc-p, .not-bold{
+        font-size:16px;
+    }
+    .base{
+        font-size:1.3rem;
+        margin-top:2rem;
+    }
+    .mid-footer{
+        margin-top:1rem;
+    }
+    .footer-link{
+        margin: 0 1rem;
+    }
+}
